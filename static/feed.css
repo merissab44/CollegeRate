@@ -1,0 +1,48 @@
+.container {
+  margin: 50px 0px 0px 0px;
+}
+.post {
+  height: 100%;
+}
+.col-md-5 {
+  background-color: #003c71;
+  color: white;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.col-md-5 ul li {
+  list-style-type: none;
+}
+.col-md-7 .post-logo {
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+  padding: 0;
+}
+.col-md-7 {
+  padding: 0;
+}
+.carousel-inner {
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+.list-group {
+  margin: 0;
+  height: 100vh;
+  overflow-y: auto;
+  line-height: 3;
+  text-align: center;
+  margin-top: 10%;
+}
+.wrapper {
+  display: block;
+}
+.col-4 {
+  height: 100vh;
+}
+.navbar {
+  background-color: #003c71;
+}
+a {
+  color: white;
+  text-align: center;
+}
