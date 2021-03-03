@@ -19,7 +19,7 @@ agreeing that 1. They rent to students and 2. They offer student discounts. Soun
 How was this built?
 
 The front-end of the app was built using flask and bootstrap. Anything visible to the user was 
-created with bootstrap and any in app handling was made with flask. We also deployed our beta version to heroku.
+created with bootstrap and any in app handling was made with flask. 
 
 What’s next for the site?
 
@@ -28,3 +28,4 @@ tinder like feed where students can view an image carousel and then swipe left o
 Once they swipe right, it will prompt them to send a message or they can send one later. All of the 
 places saved will pop up on their profile and they can click and message them directly from there as 
 well. This ensures that emails aren’t flooded with messages from places you aren’t interested in anymore.
+Lastly, We want to deploy our beta version to heroku.
