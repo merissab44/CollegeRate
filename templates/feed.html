@@ -53,8 +53,7 @@
                       </div>
                 </div>
                 <div class="col-md-5 text-center">
-                    <h3>Oakland, CA</h3>
-                    <p>Amentities include: </p>
+                    <h3>Amentities include: </h3>
                     <ul>
                         <li>Gym</li>
                         <li>Outdoor pool</li>
@@ -63,16 +62,58 @@
                     </ul>
                 </div>
                 <div class="d-grid gap-2 d-md-block" id="buttonIndicator">
-                    <button class="btn btn-primary"  id="dislike" type="button">Nope</button>
-                    <button class="btn btn-primary" id="message" type="button">Message</button>
+                    <button id="dislike" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Nope</button>
+                    <button id="message" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Message</button>
                 </div>
-            </div>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Message the Landlord!</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label">name of property:</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="message-text" class="col-form-label">Message:</label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Send message</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 </div>
                 <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
                 <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
                 <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
             </div>
+            <div class="text-center">
+              <h1>Oakland, CA</h1>
+
+              <h3>About the area: </h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Natus incidunt animi cumque dignissimos mollitia et velit blanditiis 
+                ab nobis tempore accusantium aperiam, cum eum fugiat neque iusto, 
+                impedit corrupti ratione! Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Ullam laudantium cumque in. Quod architecto laboriosam 
+                quae saepe, deleniti sapiente ut tenetur fugiat iusto enim nemo soluta, 
+                impedit temporibus quibusdam ipsa.
+              </p>
+            </div>
         </div>
     </div>
 </div>
+<script>
+  var myModal = new bootstrap.Modal(document.getElementById('message'), options)
+</script>
 {% endblock %}
