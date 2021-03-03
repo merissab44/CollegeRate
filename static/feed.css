@@ -101,7 +101,7 @@ a {
   margin: 0;
   padding: 0;
 }
-p {
+#landlord-message {
   margin-top: 0;
   margin-bottom: 1rem;
   white-space: nowrap;
