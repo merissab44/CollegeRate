@@ -1,5 +1,6 @@
 .container {
   margin: 50px 0px 0px 0px;
+  padding: 13px;
 }
 .post {
   height: 100%;
@@ -21,6 +22,9 @@
 .col-md-7 {
   padding: 0;
 }
+.col-8 {
+  padding: 0;
+}
 .carousel-inner {
   border-top-left-radius: 10%;
   border-bottom-left-radius: 10%;
@@ -31,13 +35,19 @@
   overflow-y: auto;
   line-height: 3;
   text-align: center;
-  margin-top: 10%;
+  border-radius: 0;
 }
 .wrapper {
   display: block;
 }
 .col-4 {
   height: 100vh;
+  border-right: 1px solid rgba(128, 128, 128, 0.4);
+  padding: 0;
+}
+.row {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+  padding: 0 10px 10px 10px;
 }
 .navbar {
   background-color: #003c71;
@@ -45,4 +55,22 @@
 a {
   color: white;
   text-align: center;
+}
+#buttonIndicator {
+  margin-left: 40%;
+  margin-top: -20px;
+  z-index: 9;
+}
+#dislike {
+  margin-right: 40px;
+  background: red;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+#message {
+  background: green;
+  border: none;
+  height: 50px;
+  width: 100px;
 }
