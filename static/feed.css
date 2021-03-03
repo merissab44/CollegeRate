@@ -112,3 +112,7 @@ p {
 .card {
   border: none;
 }
+#logout {
+  background: #b3002d;
+  border: none;
+}
